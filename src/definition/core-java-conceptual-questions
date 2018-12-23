@@ -1,42 +1,105 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+It is vacabulary set of gramitical rules for instructing a computer of computing device to perform specific tasks.
 What jdk contains or composed of and define each components?
-A.
+A.JDK contains of JVM ,JRE
+  JVM is java virtual machine is use to execute the program
+  JRE is Java run time environement is simply run java program.
 What is IDE?
-A.
+A.Intergrated Development Envirenment.
 What are the IDEs available in the market to support java?
+A. Eclipse
+B. Intellij
+C. Net Beans
+d. Microsoft Visual Studio
 Explain the entire java life cycle.
+ Source code is written then you compile. Compiler call
+ java  c  compiler , all these java source code produce byte
+ code and then those byte codes you can load to JVM by using
+ Java Loader in JVM (Java Virtual  Machine) it has two steps it
+ verify  byte codes and just intime operator it interpretes then
+ it goes to operating system. This is the life cycle of Java.
+
+ In addition to that if you  write codes in note pad or sublime
+ We see step by step process, but if you writes codes in Eclipse
+ or inelleji ,IDE process above steps when hit the run button we
+ get the output.
 what is class?
+Class is blueprint of an Object
 What is object?
+Object is instance of an class
 What is the entry point of an application?
+main method
 Why main is static?
+Static allows main method to be called without having to instantiate a particular instance of the class.
+Because main method is static JVM can call it without creating instance of class.
 Which class is the superclass of all classes?
+Object Class
 What is difference between path and classpath variables?
+When you installed Java on your machine it is required to set the path environment variable to conveniently run the
+executable (javac.exe, java.exe, javadoc.exe, etc…) from any directory without having to type the full
+path of the command .
+Classpath is system environment variable used by the Java compiler and JVM.
+Java compiler and JVM is used Classpath to determine the location of required   class  files.
 What is the difference between an Interface and Abstract class?
+In interface you can declare method not implement,but in Abstract you can declare abstract method and implement non
+abstract methods.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+No.
+By Abstract class extend to concrete class.
 what is Access Specifier?
+Access Specifier give accesible to the class, methods, variables and constructors and we use keywords as public,private,
+protected and default.
 What is OOP ? Define each feature of java OOP.
+Object Oriented Programing
+Abstraction : Process of implementation hiding
+Encapsulation :Data hidding.
+Polymorphism : An object can take on many form
+Inheritance : Process of acquire properties from one class to another class
 What is Java Package and which package is imported by default?
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
+No. Multiple inheritance not allowed in Java .For this situation java is using Interface
 What is method overloading and when it happens?
+That allows different methods to have same name.
 Explain exceptions in java and how to handle it.
+There are two different options, We can either use the try-catch-finally approach to handle all kinds of exceptions, or
+,can use try-with-recource approach which allows an easier cleanup for resources.
 What is static keyword in java? How it has been used in variables and methods ?
+It is used to memory management mainly.It is belongs to the class
+Static variable belongs to class.
+In terms of method Static key word use with class name. method name allow withtout creating instance of class
 What is final and how it has been used variables and methods?
+Final key word assign it always contain the same value.
+In terms of variable final keyword value cannot be chang it will be constant,In terms of metthod you cannot override it
+In terms of class you cannot extend it.
 What is final, finally and finalize?
+ Final is a key word,The variable declared as final shold be initialized only once and cannot be changed,class cannot be
+ extended and methods cannot be overridden.Finally is used to place important code,it will be excuted whether exception
+ is  handled or not. Finalize is used to perform clean up processing just before object is garbage collected.
 What is a constructor ?
+It initialized the Object.
 Can we have multiple constructors in a class?
+Yes
 If we don't have a constructor declared, what is called during the object creation?
+Default constructor.
 What is "this" keyword in java ?
+ This key word refer instance variable in current class,also it use to initiate current class costructor and also
+ it can pass as an argument in the method or constructo call .
 What is "super" keyword in java? How many possible way can you use?
+Super keyword in Java can be used to refer immiediate parent class instance variable. and also can be used to invoke
+immiediate parent class method.
 What is JVM stand for ?
+Java Virtual Machine
 Is JVM platform independent?
+Yes
 What version of java are you using?
+1.8
 What is JAR stand for ?
 What is the difference between JDK and JVM?
 What is the difference between JVM and JRE?
+JRE is Java Runtime Environtment.
 What is compile time and run time?
 What is heap?
 How java manage it's memory?
@@ -52,6 +115,7 @@ Why is String Immutable in Java?
 What is constructor chaining in Java?
 The difference between Serial and Parallel Garbage Collector?
 What is JIT stands for?
+Just In Time Compiler
 Explain Java Heap space and Garbage collection?
 Can you guarantee the garbage collection process?
 What is the difference between stack and heap in Java?
