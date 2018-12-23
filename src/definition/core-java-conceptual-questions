@@ -97,14 +97,25 @@ Yes
 What version of java are you using?
 1.8
 What is JAR stand for ?
+Java Archive
 What is the difference between JDK and JVM?
+JDK is what you need to run a Java source code,JVM runs the java bytecode
 What is the difference between JVM and JRE?
-JRE is Java Runtime Environtment.
+ JVM responsible to converting Byte code to the machine specific code JRE is the real implementation ofJVM which does
+ all the work of running Bytecodes.
 What is compile time and run time?
+Comliliation process is refered as compile time,when application is running it is call run time
 What is heap?
+Heap is part of Ram where object is created
 How java manage it's memory?
+The JVM loads the code,verify the code,executes the code, manages memory this includes allocating memory from the
+operating system,managing java allocation including heap compaction and removal of garbage objects, and finally provides
+the  runtime environment.
 What is the difference between String, StringBuffer and StringBuilder?
+String is immutable. if you try to alter their values,another object get created,StringBuffer and Stringbuilder are mutable so they
+can change their value StringBuffer is slower than StringBuffer, StringBuffer are thread safe.
 What is Singleton class?
+Singleton class is a class that can only have one object.To singleton class create constructor as private.
 What is Serialization and Deserialization?
 when to use transient variable in java?
 Difference between while and do..while loop?
