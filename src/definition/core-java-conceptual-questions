@@ -144,11 +144,22 @@ uses multiple Garbage Collector Thread for the Garbage collector operations.
 What is JIT stands for?
 Just In Time Compiler
 Explain Java Heap space and Garbage collection?
+Java objects in the heap that no longer used are cleared by the garbage collection ,This is happen when the heap is full
+,and this process clear space for new objects.
 Can you guarantee the garbage collection process?
+No.
 What is the difference between stack and heap in Java?
+Heap is where the objects are created and for dynamic memory allocation,Stack memory is used for static memory allocation
+and the excuation of thread it contain methods and variables reference to the object.
 What is reflection in java and why is it useful?
+Reflection in java is an API which is used to examine or modify the behavior of methods,classes,interface at run time.
+It is useful as it is way of getting class name at runtime and creating objects of that class.
 what is multithreading in java?
+Multithreading in Java is a feature that allows concurrent execution of two or more parts of a program for maximum
+utilization of CPU.
 What is the use of synchronization in Java?
+Synchronization in java is the capability to control the access of multiple threads to any shared resource.This is
+better option where allow only one thread to access the shared resource.
 What is Framework?
 What are the testing Framework available in java?
 Difference between jUnit and testNG?
