@@ -161,11 +161,20 @@ What is the use of synchronization in Java?
 Synchronization in java is the capability to control the access of multiple threads to any shared resource.This is
 better option where allow only one thread to access the shared resource.
 What is Framework?
+Frameworks are large bodies like many classes of prewritten code to which you add your own code to solve a problem in a
+specific domain.
 What are the testing Framework available in java?
+Spring MVC, Struts 2,Hibernate,JSF,Vaadin,Google Web Toolkit,Grails.
 Difference between jUnit and testNG?
+Both jUnit and testNG supports parameterized test but different in the way they  define the parameter value.
 What are the dependencies for this project?
+Dependies are the relationships among tasks which determine the order in which activities to be performed.
 what is dependency injection in java?
+Dependency injection in java is use any additional framework by providing classes with sufficient constructors or getter
+and setter methods.
 What is static binding and dynamic binding?
+Static binding happens at compile time while dynamic binding happens at runtime.Overloaded methods are bonded using
+static binding while overridden methods are bonded using dynamic binding at run time.
 
 
 
