@@ -117,14 +117,30 @@ can change their value StringBuffer is slower than StringBuffer, StringBuffer ar
 What is Singleton class?
 Singleton class is a class that can only have one object.To singleton class create constructor as private.
 What is Serialization and Deserialization?
+ Serialization  is a process of converting an Object into a sequence of bytes which can be persisted to a disk or database
+ or can be sent through streams.The reverse process of creating object from sequence of bytes is called deserialization.
 when to use transient variable in java?
+To indicate that serialization process of such class should ignore such variables while creating a persistent byte stream
+for any instance of that class.
 Difference between while and do..while loop?
+While loop executes the code block only if the condition is true,and do while loop condition is tested at the end of the
+loop,and executes the statement in the block at least once even if the condition is failed.
 What is Enum?
+ Predfine constant data you can declare as Enum We can pass the Enum to constructor and initialize object from
+ creating concrete class
 What is Iterator?
+Iterator is used in Collection framework in java to retrieve elements one by one.
 Which one will take more memory, an int or Integer?
+Integer
 Why is String Immutable in Java?
+As String is widly use parameter for many java classes keeping immutable are catching security,synchronization,
+and performances.
 What is constructor chaining in Java?
+Calling one constructor from other is called Constructor chaining in java.Constructors can call each other using "this" and
+"super" key word.
 The difference between Serial and Parallel Garbage Collector?
+Serial collector is a default copying collector which uses only one Garbage Collector Thread,and Parallel Collector
+uses multiple Garbage Collector Thread for the Garbage collector operations.
 What is JIT stands for?
 Just In Time Compiler
 Explain Java Heap space and Garbage collection?
