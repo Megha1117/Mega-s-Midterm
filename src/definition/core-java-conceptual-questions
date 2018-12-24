@@ -58,7 +58,10 @@ Encapsulation :Data hidding.
 Polymorphism : An object can take on many form
 Inheritance : Process of acquire properties from one class to another class
 What is Java Package and which package is imported by default?
+Package in Java is a mechanism to encapsulate a group of classes,sub packages and interfaces.
+Java package with unnamed package  is  imported by default
 What is API? Name list of API that you have used so far.
+Java application programming interface
 Does java support multiple inheritance, explain why or why not?
 No. Multiple inheritance not allowed in Java .For this situation java is using Interface
 What is method overloading and when it happens?
